@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nl.kvtulder.tictactoe.MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/game00"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game20"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/game22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:onClick="tileClicked"
+            android:textSize="24sp" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:onClick="resetClicked"
+        android:text="Reset"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:text="Reset" />
+</LinearLayout>

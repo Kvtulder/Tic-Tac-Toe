@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="won_message">Congrats! You\'ve won!</string>
+    <string name="lost_message">You have lost :(</string>
+    <string name="draw_message">It\'s a draw!</string>
+    <string name="game_over">The game is already over! Press reset to play again</string>
+    <string name="p1_won_message">Congrats player 1! You\'ve won!</string>
+    <string name="p2_won_message">Congrats player 2! You\'ve won!</string>
+
+</resources>
